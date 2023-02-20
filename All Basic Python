@@ -1,20 +1,63 @@
-----This is 1st
+Concatenate -
+
+myName = input("What's youe girlfriend name? ")
+myDoing = input("What is she doing now? ")
+print(myName, "is a whore. Hence,", myDoing, "is what she does for survival!")
 
 
+name = input("What is your name? ")
+enemy = input ("What is your worst enemy’s name? ")
+power = input ("What is your superpower? ")
+live = input ("Where do you live? ")
+food = input("What is your favorite food? ")
+print()
+print("Hello", name,"!. In order to overcome your worst enemy", enemy, "you need to use", power, "as your superpower. Living in", live, "you must be brave. Rest apart lets go have", food, "for dinner.")
+
+If/Else -
+
+yoName = input("What's your name?: ")
+if yoName == "Babu Bhaiya":
+  print("Jai Maharashtra")
+else:
+  print("Koon he re baba tu")
+____________________________________________
+drink = input("Do you prefer coffee or tea or smoothie?")
+if drink == ("tea"):
+  print("Coffee is better.")
+if drink == ("smoothie"):
+ print("Your choice sucks.")
+if drink == ("coffee"):
+ print("That's a great choice.")
+else:
+  print("Drink piss, faggot!.")
+
+elif -
+
+print ("SECURE LOGIN")
+username = input("Username >")
+password = input ("Password >")
+if username == "Salman" and password == "kansas":
+  print ("Welcome BOSS!")
+elif username =="Fiza" and password =="71za":
+  print("Welcome maam")
+else:
+  print("piss off wanker.")
+
+nesting (if in if) -
+
+tvShow = input("What is your favorite tv show? ")
+if tvShow == "prison break":
+  print("Thats awesome")
+  faveCharacter = input("Who is your favorite character? ")
+  if faveCharacter == "michael":
+    print("That man is a OG")
+  elif faveCharacter == "lincoln":
+    print ("Man has appetite to death")
+  else:
+    print("Nah, there is no one better than T-bag")
+elif tvShow == "You":
+  print("Aww, sad times")
+else:
+  print("Yeah, that's cool and all…")
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
------ This is 2nd
